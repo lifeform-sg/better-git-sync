@@ -37,6 +37,7 @@ fi
 
 
 
+echo "SOURCE_FILTER=$SOURCE__FILTER"
 if [[ -n "$SOURCE_FILTER" ]]; then
   echo "** skipping sync by removing $SOURCE_FILTER "
   rm -rf "$SOURCE_FILTER"
